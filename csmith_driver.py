@@ -12,6 +12,6 @@ if __name__ == '__main__':
         os.system('clang test.c -o test -I' + CSMITH_HOME + '/runtime')
         os.system('clang test.c -o test.bc -c -emit-llvm -I' + CSMITH_HOME + \
                 '/runtime')
-        ret = os.system('dynaa_offline.py test --all --time-limit 10')
+        ret = os.system('dynaa_offline.py test basicaa --all --time-limit 10 --dir /tmp/jingyue')
         if ret != 0:
             break
