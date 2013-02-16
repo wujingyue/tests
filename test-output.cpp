@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-  cout << "Press enter to continue...";
-  cin.ignore();
+  system("ls /proc/self/task");
   return 0;
 }
