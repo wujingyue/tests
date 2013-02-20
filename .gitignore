@@ -1,0 +1,11 @@
+*
+!.gitignore
+!*.cpp
+!*.c
+!*.py
+!*.rb
+!*.pas
+!*.php
+!*.pl
+!*.stp
+!makefile
