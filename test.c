@@ -1,3 +1,6 @@
+#include <stdio.h>
+
 int main() {
-  return argc;
+  printf("hello\n");
+  return 0;
 }
