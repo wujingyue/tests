@@ -1,2 +1,3 @@
 <?php
-eval("echo 1;");
+$client = S3Client::factory(array(
+  'key' => 'your
